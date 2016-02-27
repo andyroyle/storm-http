@@ -1,0 +1,30 @@
+{
+  "name": "storm-http",
+  "version": "1.0.0",
+  "description": "http client for the storm rest-api",
+  "main": "storm.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andyroyle/storm-http.git"
+  },
+  "keywords": [
+    "storm"
+  ],
+  "author": "Andy Royle <ajroyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyroyle/storm-http/issues"
+  },
+  "homepage": "https://github.com/andyroyle/storm-http#readme",
+  "dependencies": {
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^1.0.0"
+  }
+}
