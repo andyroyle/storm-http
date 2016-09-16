@@ -1,6 +1,6 @@
 {
   "name": "storm-http",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "http client for the storm rest-api",
   "main": "storm.js",
   "scripts": {
