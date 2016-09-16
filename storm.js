@@ -2,8 +2,8 @@ var request = require('request');
 var util = require('util');
 
 module.exports.createClient = (options) => {
-  
-  options.baseUrl = `${options.host}/stormui/api/v1`;
+
+  options.baseUrl = `${options.host}/api/v1`;
 
   var execute = (opts, cb) => {
     opts.json = true;
