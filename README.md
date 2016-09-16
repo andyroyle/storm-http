@@ -32,6 +32,7 @@ client.topologies(function(err, res){
 
 - `topologies(cb)`: get the summary of all running topologies
 - `topology(id, [timespan], cb)`: get topology info by id (default timespan all-time)
+- `workers(id, cb)`: get the list of workers for a topology
 - `cluster(cb)`: get the cluster summary
 - `clusterConfig(cb)`: get the cluster configuration
 - `component(topologyId, componentId, timespan, cb)`: get component info from the specified topology (default timespan all-time)

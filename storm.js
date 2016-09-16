@@ -46,6 +46,11 @@ module.exports.createClient = (options) => {
         uri: `${options.baseUrl}/topology/${id}?window=${timespan}`
       }, cb);
     },
+    workers: (id, cb) => {
+      execute({
+        uri: `${options.baseUrl}/topology-workers/${id}`
+      }, cb);
+    },
     component: (topology, component, timespan, cb) => {
       if(typeof timespan == "function"){
         cb = timespan;
